@@ -16,9 +16,9 @@
   <p>nothing found</p>
 }
 
-@foreach (Client client in @Model.Clients)
+@foreach (Client client in Model)
 {
-  <li>@client.Name  | @Html.ActionLink(@Html.DisplayFor(model => model.Name))</li>
+  <li>@client.Name</li>
 }
 </ul>
 
