@@ -1,4 +1,4 @@
-# _Eau Claire's Salon_
+# _Eau Claire's_
 
 <h1 align="center">
   <img width="500" height="350" src="HairSalon/wwwroot/img/NeonLightHairSalon.png">
@@ -24,23 +24,24 @@ _This is an application to help a salon owner manage and keep track of their sty
   
 <br>
 
-## Setup/Installation Requirements
+## Software/Installation Requirements
+* Install [Git v2.62.2+](https://git-scm.com/downloads/)
+* Install [.NET version 3.1 SDK v2.2+](https://dotnet.microsoft.com/download/dotnet-core/2.2)
+* Install [Visual Studio Code](https://code.visualstudio.com/)
+* Install [MySql Workbench](https://www.mysql.com/products/workbench/)
 
-Software Requirements
-1. .NET framework
-2. A code editor (Visual Studio Code, Atom, etc.)
 
-Acquire The Repo:
-1. Click the 'Clone or Download Button at [Repo](https://github.com/tayphill13/TheBakery.Solution.git)
-2. If cloning, Clone via computer's Command Line terminal: `git clone {repo url}`
+## Setup 💻
 
-Editting the Code Base:
-1. Open the project in your code editor; with Bash, this is done by navigating to the project directory, then `code .`
-2. If you wish to run testing, you'll need the testing packages: navigate into the .Tests folder, and run `dotnet restore`
+Copy this url to clone this project to your local system using computer's Command Line terminal: 
+```https://github.com/tayphill13/EauClaireSalon.Solutiuon.git```
 
-Running the program:
-1. To run the program, you'll need to compile the code: `dotnet build`. This will create a compiled application in the bin/ folder.
-2. Alternately, you can run the program directly with `dotnet run`.
+If you wish to edit the code base: Open the project in your code editor; with Bash, this is done by navigating to the project directory, then `code .`
+
+### Running the program:
+1. In your command line terminal, type `cd Desktop` then navigate to project folder using `cd EauClaireSalon.Solution`
+1. To run the program, you'll need navigate to the project folder by entering `cd HairSalon`, then to compile the code enter: `dotnet restore`. This will create a compiled application in the bin/ folder.
+2. You can then run the program directly with `dotnet run` while still within the HairSalon directory.
 
 <br>
 
@@ -63,6 +64,8 @@ _**Written in:** [Visual Studio Code](https://code.visualstudio.com/)_
 _**Database Mgmt:** [MySql Workbench](https://www.mysql.com/products/workbench/)_
 
 _Using C# and .Net Core_
+
+_This was completed using MacOS_
 
 <br>
 
