@@ -21,7 +21,10 @@ _This is an application to help a salon owner manage and keep track of their sty
 
 | Spec | Input | Output |
 | :--- | :---: | ---: |
-  
+| User will be first directed to the homepage where they can select to see a list of stylists at the salon  |   |   |
+| On the stylists page, User can select a specific stylist to see their specialty and a list of their clients |   |   |
+
+
 <br>
 
 ## Software/Installation Requirements
