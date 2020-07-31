@@ -36,7 +36,7 @@ _This is an application to help a salon owner manage and keep track of their sty
 Copy this url to clone this project to your local system using computer's Command Line terminal: 
 ```https://github.com/tayphill13/EauClaireSalon.Solutiuon.git```
 
-If you wish to edit the code base: Open the project in your code editor; with Bash, this is done by navigating to the project directory, then `code .`
+If you wish to edit the code base: Open the project in your code editor; with Bash, this is done by navigating to the project directory `cd EauClaireSalon.Solution`, then `code .`
 
 ### Running the program:
 1. In your command line terminal, type `cd Desktop` then navigate to project folder using `cd EauClaireSalon.Solution`
