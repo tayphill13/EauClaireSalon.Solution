@@ -9,7 +9,7 @@ namespace HairSalon
     {
       var host = new WebHostBuilder()
       .UseKestrel()
-      .UseContentRoot(Directory.GetCurrentDirectorey())
+      .UseContentRoot(Directory.GetCurrentDirectory())
       .UseIISIntegration()
       .UseStartup<Startup>()
       .Build();

@@ -23,6 +23,7 @@ namespace HairSalon
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddMvc();
+
       services.AddEntityFrameworkMySql()
         .AddDbContext<HairSalonContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"]));
@@ -35,14 +36,14 @@ namespace HairSalon
       app.UseMvc(routes =>
       {
         routes.MapRoute(
-          nameof: "default",
+          name: "default",
           template: "{controller=Home}/{action=Index}/{id?}");
       });
 
-        app.Run(async (context) =>
-        {
-          await context.Response.WriteAsync("Something went wrong!");
-        });
+      app.Run(async (context) =>
+      {
+        await context.Response.WriteAsync("Something went wrong!");
+      });
     }
   }
 }
