@@ -6,7 +6,7 @@
 @model HairSalon.Models.Stylist;
   
 
-<h2>@Html.DisplayFor(model => model.Name) Stylists</h2>
+<h2>@Html.DisplayFor(model => model.Name)'s Clients</h2>
 <hr />
 
 
@@ -18,7 +18,7 @@
 
 @foreach (Client client in @Model.Clients)
 {
-  <li>@Html.ActionLink(@client.Name, "Details", "Stylists", new { id = client.ClientId})</li>
+  <li>@client.Name  | @Html.ActionLink(@Html.DisplayFor(model => model.Name))</li>
 }
 </ul>
 
