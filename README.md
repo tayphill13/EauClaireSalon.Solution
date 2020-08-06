@@ -79,8 +79,8 @@ CREATE TABLE `Stylists` (
 
 ### Running the program:
 1. In your command line terminal, type `cd Desktop` then navigate to project folder using `cd EauClaireSalon.Solution`
-1. To run the program, you'll need navigate to the project folder by entering `cd HairSalon`, then to compile the code enter: `dotnet restore`. This will create a compiled application in the bin/ folder.
-2. You can then run the program directly with `dotnet run` while still within the HairSalon directory.
+2. To run the program, you'll need navigate to the project folder by entering `cd HairSalon`, then to compile the code enter: `dotnet restore`. This will create a compiled application in the bin/ folder.  Do not touch the files in the bin/ or obj/ folders, you will not need to and the application will not run as intended.
+3. You can then run the program directly with `dotnet run` while still within the HairSalon directory.
 
 <br>
 
