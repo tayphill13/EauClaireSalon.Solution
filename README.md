@@ -39,14 +39,14 @@ _This is an application to help a salon owner manage and keep track of their sty
 ## Setup 💻
 
 Copy this url to clone this project to your local system using computer's Command Line terminal: 
-```https://github.com/tayphill13/EauClaireSalon.Solutiuon.git```
+```https://github.com/tayphill13/EauClaireSalon.Solution.git```
 
 If you wish to edit the code base: Open the project in your code editor; with Bash, this is done by navigating to the project directory `cd EauClaireSalon.Solution`, then `code .`
 
 
 ## Database Setup/Migration
 
-* Run MySQL by entering ```mysql -uroot -pepicodus``` in the terminal (In this example, 'epicodus' is the password, so if the word `child` was your password then you'd have ```msql -uroot -pchild```)
+* Run MySQL by entering ```mysql -uroot -pepicodus``` in the terminal (In this example, 'epicodus' is the password, so if the word `password` was your password then you'd have ```msql -uroot -ppassword```)
 * Directly import the file taylor_phillips.sql file included in the project into your SQL management tool.
 * You can use the SQL query below in your SQL management tool to execute the schema creation yourself:
 
@@ -75,7 +75,7 @@ CREATE TABLE `Stylists` (
 * This can be found in the MySql Workbench `Server` menu as `Data Import`, then choose `Import from Self-Contained File`.  Use the browsing tool to select the `taylor_phillips.sql` file that is included with the project and finally select `Start Import`.
 
 [![Image from Gyazo](https://i.gyazo.com/96703b1a98bb5bb1680a403575780910.gif)](https://gyazo.com/96703b1a98bb5bb1680a403575780910)
-
+* Within the project file, `appsettings.json` you will need to be sure that the password (pwd) matches the password that you are using for your MySql Workbench.
 
 ### Running the program:
 1. In your command line terminal, type `cd Desktop` then navigate to project folder using `cd EauClaireSalon.Solution`
